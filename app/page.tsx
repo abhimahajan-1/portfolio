@@ -23,7 +23,7 @@ const featuredProjects = [
   {
     title: "Electromyography (EMG)-Interfaced Robotic Arm",
     category: "Industry • Mechatronics / Robotics",
-    image: "/images/emgarm.png",
+    image: "/images/emgarm.jpg",
     description:
       "Built a robotic arm controlled through electromyography signals by integrating EMG sensors with Arduino-based actuation. The project combined signal acquisition, calibration, actuator control, mechanical assembly, and iterative testing into a functional mechatronics prototype.",
     bullets: [
@@ -33,7 +33,7 @@ const featuredProjects = [
       "Documented hardware decisions, troubleshooting, and testing in an engineering notebook",
     ],
     tools: ["Arduino", "EMG Sensors", "Robotics", "Signal Processing", "Mechatronics", "Actuators"],
-    gallery: ["/images/emgarm.png"],
+    gallery: ["/images/emgarm.jpg"],
   },
   {
     title: "3D Printed Upper Limb Support for Pediatric Rehabilitation",
