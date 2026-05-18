@@ -20,7 +20,24 @@ const featuredProjects = [
       "/images/fieldsight-drivetrain.png",
     ],
   },
+ 
   {
+    title: "Autonomous Multirotor UAV Design & Flight Control System",
+    category: "Project • Autonomous Systems",
+    image: "/images/uav-render.png",
+    description:
+      "Designed a modular multirotor UAV platform with focus on mechanical packaging, propulsion layout, avionics mounting, structural efficiency, and autonomous flight-control architecture.",
+    bullets: [
+      "CAD-modeled modular UAV airframe and propulsion layout",
+      "Planned motor, propeller, ESC, battery, and avionics integration",
+      "Designed manufacturable components for rapid prototyping",
+      "Structured system around autonomous flight concepts including GPS and IMU integration",
+    ],
+    tools: ["SolidWorks", "Fusion 360", "PX4", "ArduPilot", "GPS", "IMU", "FEA"],
+    gallery: ["/images/uav-render.png"],
+  },
+
+   {
     title: "Electromyography (EMG)-Interfaced Robotic Arm",
     category: "Industry • Mechatronics / Robotics",
     image: "/images/emgarm.jpg",
@@ -54,21 +71,6 @@ const featuredProjects = [
       "/images/upper-limb-stresstest.png",
       "/images/upper-limb-sensortest.png",
     ],
-  },
-  {
-    title: "Autonomous Multirotor UAV Design & Flight Control System",
-    category: "Project • Autonomous Systems",
-    image: "/images/uav-render.png",
-    description:
-      "Designed a modular multirotor UAV platform with focus on mechanical packaging, propulsion layout, avionics mounting, structural efficiency, and autonomous flight-control architecture.",
-    bullets: [
-      "CAD-modeled modular UAV airframe and propulsion layout",
-      "Planned motor, propeller, ESC, battery, and avionics integration",
-      "Designed manufacturable components for rapid prototyping",
-      "Structured system around autonomous flight concepts including GPS and IMU integration",
-    ],
-    tools: ["SolidWorks", "Fusion 360", "PX4", "ArduPilot", "GPS", "IMU", "FEA"],
-    gallery: ["/images/uav-render.png"],
   },
   {
     title: "Multi-DOF Robotic Manipulator for Assistive Applications",
