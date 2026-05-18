@@ -34,8 +34,7 @@ const featuredProjects = [
     ],
     tools: ["Arduino", "EMG Sensors", "Robotics", "Signal Processing", "Mechatronics", "Actuators"],
     gallery: ["/images/emgarm.png"],
-  }
-
+  },
   {
     title: "3D Printed Upper Limb Support for Pediatric Rehabilitation",
     category: "Research • Rehabilitation Engineering",
