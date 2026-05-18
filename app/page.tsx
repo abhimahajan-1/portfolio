@@ -1,4 +1,41 @@
 const featuredProjects = [
+
+   {
+    title: "FieldSight Autonomous Agricultural Rover",
+    category: "Industry • Robotics / Mechanical Design",
+    image: "/images/fieldsight-render.png",
+    description:
+      "Designed mechanical systems for an autonomous rover built to monitor leafy green crops and support AI-based plant health analysis. Work included rover architecture, drivetrain integration, CAD, fabrication documentation, and subsystem packaging.",
+    bullets: [
+      "Modeled chassis, drivetrain, mounts, and packaging components",
+      "Created exploded assemblies, BOMs, and fabrication-ready drawings",
+      "Integrated mechanical design with Raspberry Pi-based sensing architecture",
+      "Supported rover testing across garden and field-like environments",
+    ],
+    tools: ["SolidWorks", "FEA", "Engineering Drawings", "BOM", "Raspberry Pi", "Manufacturing"],
+    gallery: [
+      "/images/fieldsight-render.png",
+      "/images/fieldsight-transparentview.png",
+      "/images/fieldsight-explodedview.png",
+      "/images/fieldsight-drivetrain.png",
+    ],
+  },
+  {
+    title: "Electromyography (EMG)-Interfaced Robotic Arm",
+    category: "Industry • Mechatronics / Robotics",
+    image: "/images/emgarm.png",
+    description:
+      "Built a robotic arm controlled through electromyography signals by integrating EMG sensors with Arduino-based actuation. The project combined signal acquisition, calibration, actuator control, mechanical assembly, and iterative testing into a functional mechatronics prototype.",
+    bullets: [
+      "Integrated EMG sensors with Arduino for real-time prosthetic-style control",
+      "Calibrated signal thresholds and improved response consistency through testing",
+      "Validated sensor-to-actuator behavior across repeated performance trials",
+      "Documented hardware decisions, troubleshooting, and testing in an engineering notebook",
+    ],
+    tools: ["Arduino", "EMG Sensors", "Robotics", "Signal Processing", "Mechatronics", "Actuators"],
+    gallery: ["/images/emgarm.png"],
+  }
+
   {
     title: "3D Printed Upper Limb Support for Pediatric Rehabilitation",
     category: "Research • Rehabilitation Engineering",
@@ -17,26 +54,6 @@ const featuredProjects = [
       "/images/upper-limb-fos.png",
       "/images/upper-limb-stresstest.png",
       "/images/upper-limb-sensortest.png",
-    ],
-  },
-  {
-    title: "FieldSight Autonomous Agricultural Rover",
-    category: "Industry • Robotics / Mechanical Design",
-    image: "/images/fieldsight-render.png",
-    description:
-      "Designed mechanical systems for an autonomous rover built to monitor leafy green crops and support AI-based plant health analysis. Work included rover architecture, drivetrain integration, CAD, fabrication documentation, and subsystem packaging.",
-    bullets: [
-      "Modeled chassis, drivetrain, mounts, and packaging components",
-      "Created exploded assemblies, BOMs, and fabrication-ready drawings",
-      "Integrated mechanical design with Raspberry Pi-based sensing architecture",
-      "Supported rover testing across garden and field-like environments",
-    ],
-    tools: ["SolidWorks", "FEA", "Engineering Drawings", "BOM", "Raspberry Pi", "Manufacturing"],
-    gallery: [
-      "/images/fieldsight-render.png",
-      "/images/fieldsight-transparentview.png",
-      "/images/fieldsight-explodedview.png",
-      "/images/fieldsight-drivetrain.png",
     ],
   },
   {
