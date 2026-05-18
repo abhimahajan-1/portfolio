@@ -429,7 +429,7 @@ export default function Home() {
             AM
           </a>
 
-          <div className="hidden gap-7 text-sm lowercase tracking-wider text-slate-400 md:flex">
+          <div className="hidden gap-7 text-sm tracking-wider text-slate-400 md:flex">
             <a href="#about" className="transition hover:text-white">About</a>
             <a href="#featured" className="transition hover:text-white">Projects</a>
             <a href="#research" className="transition hover:text-white">Research</a>
