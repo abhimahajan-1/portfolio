@@ -430,12 +430,12 @@ export default function Home() {
           </a>
 
           <div className="hidden gap-7 text-sm lowercase tracking-wider text-slate-400 md:flex">
-            <a href="#about" className="transition hover:text-white">about</a>
-            <a href="#featured" className="transition hover:text-white">projects</a>
-            <a href="#research" className="transition hover:text-white">research</a>
-            <a href="#tech" className="transition hover:text-white">stack</a>
-            <a href="#experience" className="transition hover:text-white">experience</a>
-            <a href="#contact" className="transition hover:text-white">contact</a>
+            <a href="#about" className="transition hover:text-white">About</a>
+            <a href="#featured" className="transition hover:text-white">Projects</a>
+            <a href="#research" className="transition hover:text-white">Research</a>
+            <a href="#tech" className="transition hover:text-white">Stack</a>
+            <a href="#experience" className="transition hover:text-white">Experience</a>
+            <a href="#contact" className="transition hover:text-white">Contact</a>
           </div>
         </div>
       </nav>
