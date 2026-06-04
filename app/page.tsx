@@ -1,7 +1,7 @@
 const featuredProjects = [
 
    {
-    title: "FieldSight Autonomous Agricultural Rover",
+    title: "FieldSight: Autonomous Agricultural Rover",
     category: "Industry • Robotics / Mechanical Design",
     image: "/images/fieldsight-render.png",
     description:
@@ -131,6 +131,12 @@ const techStack = [
 
 const experience = [
   {
+  title: "Engineering Program Management Intern",
+  org: "Bloom Energy",
+  description:
+    "Supporting cross-functional engineering programs through technical coordination, schedule management, stakeholder communication, and engineering project execution.",
+  },
+  {
     title: "Mechanical Engineering Researcher",
     org: "Upper Limb Exoskeleton Optimization for Pediatric Rehabilitation",
     description:
@@ -138,7 +144,7 @@ const experience = [
   },
   {
     title: "Mechanical Engineer",
-    org: "FieldSight Autonomous Agricultural Rover",
+    org: "FieldSight: Autonomous Agricultural Rover",
     description:
       "Designed and integrated drivetrain and chassis systems for an autonomous agricultural rover, contributing CAD models, engineering drawings, manufacturability planning, and fabrication support.",
   },
@@ -494,6 +500,10 @@ export default function Home() {
               Mechanical Engineering student building across robotics,
               automation, embedded systems, and applied engineering design.
             </p>
+
+            <div className="mb-10 inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-300/5 px-4 py-2 text-sm text-cyan-300">
+              Currently Engineering Program Management Intern @ Bloom Energy
+            </div>
 
             <div className="flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
               <a
