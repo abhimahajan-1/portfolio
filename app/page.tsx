@@ -1,3 +1,7 @@
+"use client";
+
+import { useState } from "react";
+
 const featuredProjects = [
 
    {
@@ -233,10 +237,12 @@ function SectionLabel({ children }: { children: string }) {
 function FeaturedProject({
   project,
   reverse = false,
+  setSelectedImage,
 }: {
   project: (typeof featuredProjects)[number];
   reverse?: boolean;
-}) {
+  setSelectedImage: (image: string) => void;
+}){
   return (
     <article
       className={`grid items-center gap-12 lg:grid-cols-2 ${
@@ -285,11 +291,13 @@ function FeaturedProject({
               key={image}
               className="flex h-24 items-center justify-center overflow-hidden rounded-xl border border-white/10 bg-white/[0.04] p-1"
             >
+             <button onClick={() => setSelectedImage(image)} className="h-full w-full">
               <img
                 src={image}
                 alt={`${project.title} gallery image`}
                 className="h-full w-full rounded-lg object-contain opacity-80 transition hover:opacity-100"
               />
+            </button>
             </div>
           ))}
         </div>
@@ -321,6 +329,7 @@ function SmallCard({
 }
 
 export default function Home() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   return (
     <main id="top" className="min-h-screen scroll-smooth bg-[#050505] text-white">
       <style>{`
@@ -559,6 +568,7 @@ export default function Home() {
               key={project.title}
               project={project}
               reverse={index % 2 === 1}
+              setSelectedImage={setSelectedImage}
             />
           ))}
         </div>
@@ -695,6 +705,18 @@ export default function Home() {
           </a>
         </div>
       </footer>
+      {selectedImage && (
+  <div
+    onClick={() => setSelectedImage(null)}
+    className="fixed inset-0 z-[100] flex items-center justify-center bg-black/90 p-6"
+  >
+    <img
+      src={selectedImage}
+      alt="Expanded project image"
+      className="max-h-[90vh] max-w-[90vw] rounded-2xl object-contain"
+    />
+  </div>
+)}
     </main>
   );
 }
