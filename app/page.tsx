@@ -487,8 +487,7 @@ export default function Home() {
         </div>
 
         <div className="relative z-10 grid max-w-6xl items-center gap-16 lg:grid-cols-[1.15fr_0.85fr]">
-          <div className="animate-fadeIn text-center lg:text-left">
-            <p className="mb-6 text-sm uppercase tracking-[0.35em] text-cyan-300">
+          <div className="animate-fadeIn text-center">            <p className="mb-6 text-sm uppercase tracking-[0.35em] text-cyan-300">
               Robotics • Mechatronics • Mechanical Design
             </p>
 
@@ -505,8 +504,7 @@ export default function Home() {
               Currently Engineering Program Management Intern @ Bloom Energy
             </div>
 
-            <div className="flex flex-col justify-center gap-4 sm:flex-row lg:justify-start">
-              <a
+            <div className="flex flex-col justify-center gap-4 sm:flex-row">              <a
                 href="#featured"
                 className="rounded-xl bg-white px-7 py-3 font-semibold text-black transition hover:scale-105 hover:bg-cyan-200"
               >
