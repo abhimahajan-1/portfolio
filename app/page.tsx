@@ -509,10 +509,6 @@ export default function Home() {
               automation, embedded systems, and applied engineering design.
             </p>
 
-            <div className="mb-10 inline-flex items-center rounded-full border border-cyan-300/20 bg-cyan-300/5 px-4 py-2 text-sm text-cyan-300">
-              Currently Engineering Program Management Intern @ Bloom Energy
-            </div>
-
             <div className="flex flex-col justify-center gap-4 sm:flex-row">              <a
                 href="#featured"
                 className="rounded-xl bg-white px-7 py-3 font-semibold text-black transition hover:scale-105 hover:bg-cyan-200"
